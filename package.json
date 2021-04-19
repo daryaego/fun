@@ -1,0 +1,26 @@
+{
+  "name": "fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daryaego/fun.git"
+  },
+  "author": "daryaego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daryaego/fun/issues"
+  },
+  "homepage": "https://github.com/daryaego/fun#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
