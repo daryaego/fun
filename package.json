@@ -4,7 +4,10 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon main.js"
+    "start": "node main.js",
+    "test": "mocha",
+    "watch-test": "mocha --watch",
+    "dev": "nodemon main.js 3000"
   },
   "repository": {
     "type": "git",
@@ -17,9 +20,11 @@
   },
   "homepage": "https://github.com/daryaego/fun#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "string-format-js": "^1.0.0"
   },
   "devDependencies": {
+    "mocha": "^8.3.2",
     "nodemon": "^2.0.7",
     "supertest": "^6.1.3"
   }
